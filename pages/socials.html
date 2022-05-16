@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" href="/icon.png">
+    <title>Costellae Studios</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Costellae</h4>
+        </div>
+        <ul class="links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+            <li><a href="/pages/socials.html">Social Medias</a></li>
+            <li><a href="https://costellae-studios.itch.io/">Game Library</a></li>
+        </ul>
+        <div class="nav-mobile">
+            <div class="nav-mobile-line"></div>
+            <div class="nav-mobile-line"></div>
+            <div class="nav-mobile-line"></div>
+        </div>
+
+        <!-- Java Script Navigation Bar Listener -->
+
+        <script>
+            const mobile = document.querySelector('.nav-mobile');
+            const nav = document.querySelector('.links');
+            mobile.addEventListener('click', () => {
+                nav.classList.toggle('nav-active');
+            });
+        </script>
+
+    </nav>
+     
+    <div class="container"> 
+
+        <ul>
+            <li class="socials"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png"><a href="https://www.instagram.com/costellaestudios/"> Follow us on Instagram!</a></li>
+            <li class="socials"><img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/itch-dot-io-512.png"><a href="https://costellae-studios.itch.io/"> Check out our Itch.io store!</a></li>
+            <li class="socials"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-youtube-512.png"><a href="https://www.youtube.com/channel/UC4RilEfY1jDgKRM3o9aElTg"> Subscribe on Youtube!</a></li>
+            <li class="socials"><img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/discord-512.png"><a href="https://discord.com/invite/UduAW7ajFJ"> Join our Discord Server</a></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+</div>
+<ul class="links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/pages/about.html">About</a></li>
+    <li><a href="/pages/contact.html">Contact</a></li>
+    <li><a href="/pages/socials.html">Social Medias</a></li>
+    <li><a href="https://costellae-studios.itch.io/">Game Library</a></li>
+</ul>
+<div class="nav-mobile">
+    <div class="nav-mobile-line"></div>
+    <div class="nav-mobile-line"></div>
+    <div class="nav-mobile-line"></div>
+</div>
+
+<!-- Java Script Navigation Bar Listener -->
+
+<script>
+    const mobile = document.querySelector('.nav-mobile');
+    const nav = document.querySelector('.links');
+    mobile.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+    });
+</script>

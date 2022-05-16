@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap" rel="stylesheet">
+    <title>404 Error!</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Costellae</h4>
+        </div>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+            <li><a href="/pages/socials.html">Social Medias</a></li>
+            <li><a href="https://costellae-studios.itch.io/">Game Library</a></li>
+        </ul>
+        <div class="nav-mobile">
+            <div class="nav-mobile-line"></div>
+            <div class="nav-mobile-line"></div>
+            <div class="nav-mobile-line"></div>
+        </div>
+
+        <!-- Java Script Navigation Bar Listener -->
+
+        <script>
+            const mobile = document.querySelector('.nav-mobile');
+            const nav = document.querySelector('.links');
+            mobile.addEventListener('click', () => {
+                nav.classList.toggle('nav-active');
+            });
+        </script>
+
+    </nav>
+    <div class="container"> 
+
+        <h1>404 Error!</h1>
+        <p>The page you're looking for doesn't exist!</p>
+        <p class="subtext">...or does it?</p>
+
+    </div>
+
+</body>
+</html>
